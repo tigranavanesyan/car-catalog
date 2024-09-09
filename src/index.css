@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.breadcrumbs {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+.breadcrumbs li {
+  display: inline;
+}
+
+.breadcrumbs li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.breadcrumbs li::after {
+  content: " > ";
+}
+
+.breadcrumbs li:last-child::after {
+  content: "";
+}
+
+.breadcrumbs li:last-child {
+  font-weight: bold;
+}
+
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  background-color: transparent; /* Initially transparent */
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.overlay{
+  border-color: yellow; /* Red border on hover */
+}
+.overlay.hovered {
+  background-color: rgba(255, 255, 0, 0.4); /* Light yellow background on hover */
+  border-color: red; /* Red border on hover */
+}
+
+.parts-table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.parts-table th, .parts-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.parts-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.highlight {
+  background-color: yellow; /* Highlighting effect */
+}
+
+
+
+table{
+  width: 100%;
+}

@@ -1,0 +1,137 @@
+{
+  "firms": [
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "models": [
+        { "id": "Allion", "name": "Allion", "year": 2021, "price": 70001 ,
+          "frameId": [
+            {
+              "name": "AZT240",
+              "parts": [
+                {
+                  "name": "AZT240-AEXGH",
+                  "option3": ["0901-STANDARD_TOOL","1101-PARTIAL_ENGINE_ASSEMBLY"]
+                },
+                {
+                  "name": "AZT240-CEXGH",
+                  "option3": []
+                }
+              ]
+            },
+            {
+              "name": "NZT240",
+              "parts": [
+                {
+                  "name": "AZT240-AEXGH",
+                  "option3": []
+                },
+                {
+                  "name": "AZT240-CEXGH",
+                  "option3": []
+                }
+              ]
+            },
+            {
+              "name": "NZT260",
+              "parts": [
+                {
+                  "name": "AZT240-AEXGH",
+                  "option3": []
+                },
+                {
+                  "name": "AZT240-CEXGH",
+                  "option3": []
+                }
+              ]
+            },
+            {
+              "name": "ZRT261",
+              "parts": [
+                {
+                  "name": "AZT240-AEXGH",
+                  "option3": []
+                },
+                {
+                  "name": "AZT240-CEXGH",
+                  "option3": []
+                }
+              ]
+            }]
+        },
+        { "id": "Alphard", "name": "Alphard", "year": 2021, "price": 70000 },
+        { "id": "Altezza", "name": "Altezza", "year": 2021, "price": 70000 },
+        { "id": "Aqua", "name": "Aqua", "year": 2021, "price": 70000 },
+        { "id": "Aristo", "name": "Aristo", "year": 2021, "price": 70000 }
+      ]
+    },
+    {
+      "id": "Honda",
+      "name": "Honda",
+      "models": [
+        { "id": "x5", "name": "X5", "year": 2022, "price": 60000 },
+        { "id": "m3", "name": "M3", "year": 2021, "price": 70000 }
+      ]
+    },
+    {
+      "id": "Lexus",
+      "name": "Lexus",
+      "models": [
+        { "id": "x5", "name": "X5", "year": 2022, "price": 60000 },
+        { "id": "m3", "name": "M3", "year": 2021, "price": 70000 }
+      ]
+    },
+    {
+      "id": "Mazda",
+      "name": "Mazda",
+      "models": [
+        { "id": "x5", "name": "X5", "year": 2022, "price": 60000 },
+        { "id": "m3", "name": "M3", "year": 2021, "price": 70000 }
+      ]
+    },
+    {
+      "id": "Nissan",
+      "name": "Nissan",
+      "models": [
+        { "id": "x5", "name": "X5", "year": 2022, "price": 60000 },
+        { "id": "m3", "name": "M3", "year": 2021, "price": 70000 }
+      ]
+    },
+    {
+      "id": "Subaru",
+      "name": "Subaru",
+      "models": [
+        { "id": "x5", "name": "X5", "year": 2022, "price": 60000 },
+        { "id": "m3", "name": "M3", "year": 2021, "price": 70000 }
+      ]
+    },
+    {
+      "id": "Infiniti",
+      "name": "Infiniti",
+      "models": [
+        { "id": "x5", "name": "X5", "year": 2022, "price": 60000 },
+        { "id": "m3", "name": "M3", "year": 2021, "price": 70000 }
+      ]
+    },
+    {
+      "id": "Suzuki",
+      "name": "Suzuki",
+      "models": [
+        { "id": "Allex", "name": "Allex", "year": 2022, "price": 60000 },
+        { "id": "Allion", "name": "Allion", "year": 2021, "price": 70000 },
+        { "id": "Alphard", "name": "Alphard", "year": 2021, "price": 70000 },
+        { "id": "Altezza", "name": "Altezza", "year": 2021, "price": 70000 },
+        { "id": "Aqua", "name": "Aqua", "year": 2021, "price": 70000 },
+        { "id": "Aristo", "name": "Aristo", "year": 2021, "price": 70000 }
+      ]
+    },
+    {
+      "id": "Mitsubishi",
+      "name": "Mitsubishi",
+      "models": [
+        { "id": "x5", "name": "X5", "year": 2022, "price": 60000 },
+        { "id": "m3", "name": "M3", "year": 2021, "price": 70000 }
+      ]
+    }
+  ]
+}
