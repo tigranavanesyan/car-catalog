@@ -1,4 +1,6 @@
 body {
+  height: 2000px;
+  padding: 0 20px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -46,17 +48,27 @@ code {
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  gap: 15px;
+  height: 830px;
+  max-height: 85vh;
 }
-
+.image_wrapper{
+  flex: 1;
+  display: grid;
+  place-items: center;
+  border: 1px solid #eee;
+}
 .image-container {
   position: relative;
-  margin-bottom: 20px;
+
 }
 
 .image {
   display: block;
+  height: 830px;
+  max-height: 85vh;
 }
+
 
 .overlay {
   position: absolute;
@@ -68,31 +80,58 @@ code {
   border-color: yellow; /* Red border on hover */
 }
 .overlay.hovered {
-  background-color: rgba(255, 255, 0, 0.4); /* Light yellow background on hover */
-  border-color: red; /* Red border on hover */
+  background-color: rgba(192, 192, 192, 0.4); /* Light yellow background on hover */
+  border-color: #cf3b3b; /* Red border on hover */
 }
 
-.parts-table {
-  border-collapse: collapse;
-  width: 80%;
-}
-
-.parts-table th, .parts-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-}
-
-.parts-table tr:hover {
-  background-color: #f1f1f1;
-}
 
 .highlight {
-  background-color: yellow; /* Highlighting effect */
+  background-color: #e1f2fd;
 }
 
-
-
-table{
+.grid_table{
+  flex: 1;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr 2fr 1fr;
+  border: 1px solid #eee;
   width: 100%;
+  height: 85%;
+  overflow-y: auto;
+}
+.grid_table1{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr 2fr 1fr;
+
+}
+.grid_title{
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background-color: #f4f4f4;
+  padding: 5px 10px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+.grid_table a{
+  text-decoration: none;
+  color: #006cad;
+}
+.grid_table a:hover{
+  color: #d90a25;
+}
+
+.grid_section{
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+.grid_head{
+  background-color: #f4f4f4;
+  padding: 10px 5px;
+  border: 1px solid #eee;
+}
+.list_row{
+  border-bottom: 1px solid #eee;
+}
+.list_row>div{
+  padding: 5px 10px;
+
 }
